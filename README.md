@@ -27,6 +27,9 @@ Make sure you have Python installed on your system. If not, you can download it 
   cd image-caption-generator
 ```
 3. Install Dependencies: Ensure you have Python and pip installed. Create a virtual environment (optional but recommended) and activate it. Then, install the required dependencies.
+```bash
+  pip install -r requirements.txt
+```
 4. Run the App in vs code: Start the app by executing the following command:
 ```bash
   python app.py
