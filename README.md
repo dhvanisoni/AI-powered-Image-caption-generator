@@ -20,7 +20,7 @@ Make sure you have Python installed on your system. If not, you can download it 
 
 1. Clone the Repository: Open your terminal and navigate to the directory where you want to clone the project. Then, run the following command to clone the repository:
 ```bash
-  git clone https://github.com/dhvanisoni/AI-powered-Image-Caption-Generator-.git
+ git clone https://github.com/dhvanisoni/AI-powered-Image-Caption-Generator.git
 ```
 2. Navigate to the project directory:
  ```bash
