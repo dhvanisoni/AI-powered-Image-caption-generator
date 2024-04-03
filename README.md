@@ -15,10 +15,9 @@ Welcome to the Image Caption Generator project! This innovative web application 
 ## Getting Started
 To explore the capabilities of the Image Caption Generator, follow these instructions to set up the project on your local environment.
 
-## Prerequisites
+Prerequisites
 Make sure you have Python installed on your system. If not, you can download it from python.org.
 
-## Installation
 1. Clone the Repository: Open your terminal and navigate to the directory where you want to clone the project. Then, run the following command to clone the repository:
 ```bash
   git clone https://github.com/dhvanisoni/AI-powered-Image-Caption-Generator-.git
