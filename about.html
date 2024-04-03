@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>snapspeak</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-star-rating/4.0.6/css/star-rating.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+
+      <!-- style css -->
+      <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+      <link rel="stylesheet" href="{{url_for('static', filename='css/star.css')}}">
+      <link rel="stylesheet" href="{{url_for('static',filename='css/scroll.css')}}">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="{{url_for('static',filename='css/responsive.css')}}">
+      <!-- fevicon -->
+      <!-- <link rel="icon" href="{{url_for('static',filename='images/fevicon.png')}}" type="image/logo.jpg" /> -->
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="{{url_for('static',filename='css/jquery.mCustomScrollbar.min.css')}}">
+      <!-- Tweaks for older IEs-->
+      <!-- <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css"> -->
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   </head>
+   <!-- body -->
+   <body class="main-layout inner_page">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="{{url_for('static',filename='images/loading.gif')}}" alt="#"/></div>
+      </div>
+<!-- header inner -->
+
+<!-- end header inner -->
+
+
+
+      <!-- end loader -->
+      <!-- top -->
+      
+      <!-- end banner -->
+      <div id="myHeader" class="header diki">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 col-sm-12">
+                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item ">
+                              <a class="nav-link" href="/">Home</a>
+                           </li>
+                           <li class="nav-item active">
+                              <a class="nav-link" href="/about">Upload your snap</a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="couple.html"></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="gallery.html"></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="Javascript:void(0)"></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="Javascript:void(0)"></a>
+                           </li>
+                           
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+      <!-- about -->
+      <div class="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>Unlock the Power of Visuals: Elevate Your Images with Words!</h3>
+                  </div>
+               </div>
+               <div class="col-md-10 offset-md-1">
+                  <div class="about_img text_align_center">
+                     <body class="main-layout inner_page">
+    <!-- ... other HTML content ... -->
+
+    <!-- The caption with white text color -->
+
+    <h1 style="color: white;"></h1>
+    
+
+
+    <!-- ... other HTML content ... -->
+</body>
+    		<form method="POST" enctype="multipart/form-data">
+  <label for="option">Select Tone:</label>
+  <select name="option" required>
+    <option value="Playful">Playful</option> 
+            
+  	<option value="Adventurous">Adventurous</option>
+    <option value="Inspiring">Inspiring</option>
+<option value="Serene">Serene</option>
+<option value="Witty">Witty</option>
+<option value="Motivational">Motivational</option>
+<option value="Humble">Humble</option>
+<option value="Mysterious">Mysterious</option>
+<option value="Energetic">Energetic</option>
+<option value="Energetic">Romantic</option>
+<option value="Nostalgic">Nostalgic</option>
+<option value="Glamorous">Glamorous</option>
+<option value="Reflective">Reflective</option>
+<option value="Hilarious">Hilarious</option>
+<option value="Bold">Bold</option>
+
+  </select><br>
+    <label for="image">Image:</label>
+    <input type="file" name="image" accept="image/*" required>
+
+  
+  <!-- <input type="submit" class="btn btn-primary read_more whitebg" value="Generate Caption"> -->
+  <input type="submit" class="transparent-button" value="Generate Caption">
+
+  
+  
+</form>
+<br>
+<br>
+<body class="main-layout inner_page">
+
+   {% if img_data %} 
+   <img id="picture" src="data:image/jpeg;base64,{{ img_data }}" width={{img_width}} height={{img_height}}>
+   {% endif %}
+<!-- ... other HTML content ... -->
+
+    <!-- The caption with white text color -->
+    <br><br><h1 style="color: white;">{{caption}}</h1>
+
+    <!-- ... other HTML content ... -->
+</body>
+
+
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+      </div>
+<style>
+  /* Increase font size for labels and select element */
+  label,
+  select {
+    font-size: 18px;
+  }
+
+  /* Increase font size and padding for input elements */
+  input[type="file"],
+  .btn {
+    font-size: 20px;
+    padding: 15px;
+  }
+</style>
+
+      
+      <!-- end about -->
+      <!--  footer -->
+      <footer>
+         <div class="footer">
+           <div class="container">
+              <div class="row border_bo1 ">
+                 <div class="col-md-4">
+                    
+                    <form class="form_subscri" method="POST" action="/about">
+                       <div class="row">
+                          <div class="col-md-12">
+                             <h3 >Please comment and rate</h3>
+                          </div>
+                          <div class="col-md-12">
+                             
+                             <input class="subsrib" placeholder="Enter your comment" type="text" name="comment">
+                          </div>
+                          
+                       
+                       <ul class="rate-area">
+                          <input type="radio" id="5-star" name="rating" value="5" /><label for="5-star" title="Amazing">5 stars</label>
+                          <input type="radio" id="4-star" name="rating" value="4" /><label for="4-star" title="Good">4 stars</label>
+                          <input type="radio" id="3-star" name="rating" value="3" /><label for="3-star" title="Average">3 stars</label>
+                          <input type="radio" id="2-star" name="rating" value="2" /><label for="2-star" title="Not Good">2 stars</label>
+                          <input type="radio" id="1-star" name="rating" value="1" /><label for="1-star" title="Bad">1 star</label>
+                       </ul>
+                    </div>
+                       <div class="col-md-12">
+                             <button class="subsci_btn">submit</button>
+                          </div><br><br>
+                       <!-- </form> -->
+                    </form>
+              </div>
+           </div>
+        
+          <!-- <div class="footer">
+             <div class="container">
+                <div class="row border_bo1 ">
+                   <div class="col-md-4">
+                      
+                       <form class="form_subscri" method="POST" action="/about"></form>
+                         <div class="row">
+                            <div class="col-md-12">
+                               <h3>Please comment and rate</h3>
+                            </div>
+                            <div class="col-md-12">
+                               <input class="subsrib" placeholder="Enter your comment" type="text" name="Enter your Comments">
+                            </div>
+                            
+                         </div>
+ <div class="rating">
+                      <input id="star5" name="rating" type="radio" value="5">
+                      <label for="star5"><i class="fa fa-star"></i></label>
+                      <input id="star4" name="rating" type="radio" value="4">
+                      <label for="star4"><i class="fa fa-star"></i></label>
+                      <input id="star3" name="rating" type="radio" value="3">
+                      <label for="star3"><i class="fa fa-star"></i></label>
+                      <input id="star2" name="rating" type="radio" value="2">
+                      <label for="star2"><i class="fa fa-star"></i></label>
+                      <input id="star1" name="rating" type="radio" value="1">
+                      <label for="star1"><i class="fa fa-star"></i></label>
+                   </div><br>
+ 
+                      </form>
+ <div class="col-md-12">
+                               <button class="subsci_btn">submit</button>
+                            </div><br><br>
+                </div>
+             </div>
+          </div> -->
+ 
+ 
+ 
+ 
+ <!DOCTYPE html>
+ 
+ 
+ <body class="sub_page">
+    
+ 
+   <!-- client section -->
+   <section class="client_section layout_padding">
+     <div class="container">
+       <div class="heading_container heading_center">
+         <h2>
+           Ratings and Comments
+         </h2>
+       </div>
+     </div>
+     <!-- <div id="customCarousel2" class="carousel slide" data-ride="carousel">
+       <div class="carousel-inner">
+         <div class="carousel-item active">
+           <div class="container">
+             <div class="row">
+               <div class="col-md-10 mx-auto">
+                 <div class="box">
+                   <div class="img-box">
+                     <img src="{{url_for('static',filename='images/client.jpg')}}" alt="">
+                   </div>
+                   <div class="detail-box">
+                     <div class="client_info">
+                       <div class="client_name">
+                        {% for review in reviews %}
+          
+                           <h5>
+                              {% if review[0] == 5 %}★★★★★{% endif %}
+                              {% if review[0] == 4 %}★★★★☆{% endif %}
+                              {% if review[0] == 3 %}★★★☆☆{% endif %}
+                              {% if review[0] == 2 %}★★☆☆☆{% endif %}
+                              {% if review[0] == 1 %}★☆☆☆☆{% endif %}
+
+                              
+                           </h5>
+                         <h6>
+                           
+                         </h6>
+                       </div>
+                       <i class="fa fa-quote-left" aria-hidden="true"></i>
+                     </div>
+                     
+                        <p>
+                           {{ review[1] }}
+                     </p>
+                     
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+         
+       <ol class="carousel-indicators">
+         
+         <li data-target="#customCarousel2" data-slide-to="{{loop.index0}}" ></li>
+         
+         
+       </ol><br><br>
+       {% endfor %}
+     </div> -->
+
+     <div class="scrolling-list">
+      <ul>
+        {% for review in reviews %}
+          <li>
+            <div class="client_info">
+              <div class="client_name">
+                <h5>
+                  {% if review[0] == 5 %}★★★★★{% endif %}
+                  {% if review[0] == 4 %}★★★★☆{% endif %}
+                  {% if review[0] == 3 %}★★★☆☆{% endif %}
+                  {% if review[0] == 2 %}★★☆☆☆{% endif %}
+                  {% if review[0] == 1 %}★☆☆☆☆{% endif %}
+                </h5>
+              </div>
+              <i class="fa fa-quote-left" aria-hidden="true"></i>
+            </div>
+            <p>{{ review[1] }}</p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+   </section>
+   <!-- end client section -->
+ 
+ <style>
+   .client_section h2,
+   .client_name h5,
+   .client_name h6,
+   .client_section p {
+     color: white; /* Set the text color to white */
+   }
+ </style>
+ <!-- info section -->
+   <section class="info_section ">
+ 
+     <div class="container">
+       <div class="contact_nav">
+         <a href="">
+           <i class="fa fa-phone" aria-hidden="true"></i>
+           <span>
+             Call : +01 123455678990
+           </span>
+         </a>
+         <a href="">
+           <i class="fa fa-envelope" aria-hidden="true"></i>
+           <span>
+             Email : demo@gmail.com
+           </span>
+         </a>
+         <a href="">
+           <i class="fa fa-map-marker" aria-hidden="true"></i>
+           <span>
+             Location
+           </span>
+         </a>
+       </div>
+ 
+       
+       </div>
+     </div>
+   </section>
+   
+   <!-- footer section -->
+ 
+   <!-- jQery -->
+   <script type="text/javascript" src="{{url_for('static',filename='js/jquery-3.4.1.min.js')}}"></scrxxxxxxxxxxxxxxxxxxxx>
+   <!-- popper js -->
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+   </script>
+   <!-- bootstrap js -->
+   <script type="text/javascript" src="{{url_for('static',filename='js/bootstrap.js')}}"></script>
+   <!-- owl slider -->
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+   </script>
+   <!--  OwlCarousel 2 - Filter -->
+   <script src="https://huynhhuynh.github.io/owlcarousel2-filter/dist/owlcarousel2-filter.min.js"></script>
+   <!-- custom js -->
+   <script type="text/javascript" src="{{url_for('static',filename='js/custom.js')}}"></script>
+   <!-- Google Map -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=xxxxxxxxxxxxxxxxx=myMap">
+   </script>
+   <!-- End Google Map -->
+ 
+       </footer>
+       <!-- end footer -->
+       <!-- Javascript files-->
+       <script src="{{url_for('static',filename='js/jquery.min.js')}}"></script>
+       <script src="{{url_for('static',filename='js/bootstrap.bundle.min.js')}}"></script>
+       <script src="{{url_for('static',filename='js/jquery-3.0.0.min.js')}}"></script>
+       <!-- sidebar -->
+       <script src="{{url_for('static', filename='js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+       <script src="{{url_for('static', filename='js/custom.js')}}"></script>
+       <script type="text/javascript">
+          baguetteBox.run('.tz-gallery');
+       </script>
+       <script type="text/javascript">
+          window.onscroll = function() {myFunction()};
+          
+          var header = document.getElementById("myHeader");
+          var sticky = header.offsetTop;
+          
+          function myFunction() {
+           if (window.pageYOffset > sticky) {
+             header.classList.add("sticky");
+           } else {
+             header.classList.remove("sticky");
+           }
+          }
+       </script>
+    </body>
+ </html>
+
+ 
