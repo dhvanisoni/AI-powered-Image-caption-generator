@@ -32,3 +32,11 @@ Make sure you have Python installed on your system. If not, you can download it 
   python app.py
 ```
 
+🛠️ Tools and Techniques Used:
+- Yolov8n model
+- OpenAI GPT 3 model API
+- Huggingface model API
+- Python 
+- Flask 
+- HTML, css and javascript for web application
+
