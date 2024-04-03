@@ -1,1 +1,1 @@
-# AI-powered-Image-Caption-Generator
+# AI-powered Image Caption Generator
