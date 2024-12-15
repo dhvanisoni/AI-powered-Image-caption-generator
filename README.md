@@ -1,5 +1,6 @@
 # SnapSpeak - Image Caption Generator
 
+## About the Project
 Welcome to the Image Caption Generator project! This innovative web application leverages cutting-edge AI technologies, including the YOLO (You Only Look Once) model for object detection and a Language Learning Model (LLM) API for generating natural and contextually relevant captions for images. Designed with user experience in mind, The Flask-based web application offers a seamless and interactive user experience, allowing for the effortless upload of images and instant caption generation.
 
 ## Usage
