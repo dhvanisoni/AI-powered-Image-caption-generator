@@ -3,6 +3,8 @@
 ## About the Project
 Welcome to the Image Caption Generator project! This innovative web application leverages cutting-edge AI technologies, including the YOLO (You Only Look Once) model for object detection and a Language Learning Model (LLM) API for generating natural and contextually relevant captions for images. Designed with user experience in mind, The Flask-based web application offers a seamless and interactive user experience, allowing for the effortless upload of images and instant caption generation.
 
+![Project structire](https://github.com/dhvanisoni/AI-powered-Image-caption-generator/blob/main/images/diagram.png)
+
 ## Usage
 - The interface is intuitive: upload an image, and the system will present the image alongside its AI-generated caption.
 - Test with various images to discover the adaptability of our captioning system to different scenarios and objects.
@@ -33,10 +35,7 @@ Make sure you have Python installed on your system. If not, you can download it 
 - **Advanced Object Detection**: Leverages powerful YOLOv8, the latest iteration of the "You Only Look Once" model, known for its exceptional accuracy and speed in detecting objects within images.
 - **Caption Generation**: Integrates with OpenAI GPT-3 and Hugging Face's transformer model's API to craft coherent and contextually relevant captions based on the objects detected.
 - **User-Friendly Interface**: Provides an easy-to-navigate web interface built with Flask, allowing users to upload images effortlessly and receive captions in seconds.
-- **Performance Optimization**: Engineered for precision, achieving over 95% accuracy in object detection and caption relevance, thanks to continuous refinement and the integration of cutting-edge AI models.
-
-![Project structire](https://github.com/dhvanisoni/AI-powered-Image-caption-generator/blob/main/images/diagram.png)
-  
+- **Performance Optimization**: Engineered for precision, achieving over 95% accuracy in object detection and caption relevance, thanks to continuous refinement and the integration of cutting-edge AI models.  
 
 ## Tech Stack:
 - Programming Language: Python
