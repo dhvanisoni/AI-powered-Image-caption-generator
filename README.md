@@ -35,6 +35,9 @@ Make sure you have Python installed on your system. If not, you can download it 
 - **User-Friendly Interface**: Provides an easy-to-navigate web interface built with Flask, allowing users to upload images effortlessly and receive captions in seconds.
 - **Performance Optimization**: Engineered for precision, achieving over 95% accuracy in object detection and caption relevance, thanks to continuous refinement and the integration of cutting-edge AI models.
 
+![Project structire](https://github.com/dhvanisoni/AI-powered-Image-caption-generator/blob/main/images/diagram.png)
+  
+
 ## Tech Stack:
 - Programming Language: Python
 - Libraries/Frameworks: pandas, NumPy, scikit-learn, TensorFlow, Flask 
